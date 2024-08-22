@@ -2,6 +2,8 @@
 
 The objective of this project is to develop a smart contract for file management that securely stores file metadata on the blockchain. The contract will demonstrate the use of Solidity's require(), assert(), and revert() functions for effective error handling. By implementing these functions, the project aims to ensure that only valid operations are executed, with appropriate conditions enforced and errors reverted when necessary, thus maintaining the integrity and reliability of the file management system on the blockchain.
 
+![images](https://github.com/user-attachments/assets/0b3df6b1-da9f-49bd-95ae-8aee793d7143)
+
 ## Feature 
 
 _**Secure Storage of File Metadata:**_
@@ -192,6 +194,5 @@ The `DecentralizedFileManagement` contract is a Solidity smart contract designed
    - **Access Control:** Only the owner can perform specific actions, enforced using the `onlyOwner` modifier.
    - **Data Integrity:** The use of cryptographic hashing (`keccak256`) ensures the uniqueness of file identifiers.
    - **Error Prevention:** The contract includes comprehensive checks to prevent unauthorized access, duplicate files, and invalid data submissions.
-   - 
 
 
